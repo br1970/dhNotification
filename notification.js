@@ -5,7 +5,7 @@
 //                                                                              
 // Interfaces: MongoDB database                                                 
 //                                                                              
-// Author:     Sal Carceller                                                    
+// Author:     Sal Carceller -> John Santoro                                                   
 //                                                                              
 //-----------------------------------------------------------------------------
 var http         = require('http');
