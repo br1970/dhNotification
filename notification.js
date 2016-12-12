@@ -67,8 +67,9 @@ helper.dbInit( function(err)
 
   // Start the node.js server listening
   // even if the backend DB connection fails we still want to service requests
-  app.listen(_port);
-
+//  app.listen(_port);
+  app.listen();
+  
   console.log('  ... application now listening on port ' + _port);
 });
 
