@@ -42,7 +42,7 @@ var _crefNotification = null;
 //-----------------------------------------------------------------------------
 // Main code body
 //-----------------------------------------------------------------------------
-console.log("DreamHome.Notification ==> Begin Execution");
+console.log("DreamHome.Notification ==> Begin Execution on AWS Elastic Beanstalk");
 
 // wait for DB module to fully initialize and connect to the backend DB
 // we don't want to start the node.js server listening till we know we are fully connected to the DB
