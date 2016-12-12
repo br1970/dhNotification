@@ -70,7 +70,7 @@ helper.dbInit( function(err)
 //  app.listen(_port);
   app.listen();
   
-  console.log('  ... application now listening on port ' + _port);
+  console.log('  ... NO ARG application now listening on port ' + _port);
 });
 
 
