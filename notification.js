@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json()); // for parsing application/json
 //-----------------------------------------------------------------------------
 
-var _port = process.evn.PORT || 3000;       // port to listen on
+var _port = process.evn.PORT || 8081;       // port to listen on
 
 //-----------------------------------------------------------------------------
 // return code definitions, used in json responses {"RC": _rcOK}  
@@ -69,7 +69,7 @@ helper.dbInit( function(err)
   // even if the backend DB connection fails we still want to service requests
   app.listen(_port);
   
-  console.log('  ... NO ARG application now listening on port ' + _port);
+  console.log('  ...application now listening on port ' + _port);
 });
 
 
