@@ -269,7 +269,7 @@ app.get('/dbConnected', function(req, res)
   // test if connected to the DB
   if(_dbConnected==true)
   { // connected to the DB
-    retjson.success = "Succesfully connected to the DB.";
+    retjson.success = "You have succesfully connected to the database.";
   
     // Let's fetch the list of collections currently stored in the DB
     _dbref.listCollections().toArray(function(err, items) 
@@ -305,7 +305,7 @@ app.get('/echo', function (req, res)
   var statusCode = 200;            // assume valid http response code=200 (OK, good response)
 
   // send the http response message
-  retjson.success = "Echo from DreamHome.Notification service!";
+  retjson.success = "Echo from UPDATED DreamHome.Notification service!";
   res.status(statusCode).json(retjson);
   res.end;
 
